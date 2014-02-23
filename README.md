@@ -1,8 +1,7 @@
 XBCalabashSample
 ================
 
-Just download and execute
+Just download, compile the main (and only) target and execute
 
-```cucumber````
-
-. No need to run pod install.
+    xcodebuild -workspace XBCalabashSample.xcworkspace -scheme XBCalabashSample -sdk iphonesimulator7.0
+    cucumber
